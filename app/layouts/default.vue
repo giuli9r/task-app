@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav-var />
+        <app-nav-bar />
         <main class="container">
             <slot />
         </main>
