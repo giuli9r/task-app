@@ -1,11 +1,11 @@
 export default defineEventHandler(async (event) => {
 
-    await new Promise((resolve) => setTimeout(resolve, 2000));
-
-    return sendError(event, createError({
-        statusCode: 500,
-        statusMessage: "Oh no! Internal Server Error"
-    }))
+    // fake await and error for testing
+    // await new Promise((resolve) => setTimeout(resolve, 2000));
+    // return sendError(event, createError({
+    //     statusCode: 500,
+    //     statusMessage: "Oh no! Internal Server Error"
+    // }))
 
     return [{
         id: 1,
