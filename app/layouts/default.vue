@@ -6,3 +6,10 @@
         </main>
     </div>
 </template>
+
+<style>
+/* En un layout scoped, ponemos el estilo global aqui */
+.error {
+    color: red;
+}
+</style>
